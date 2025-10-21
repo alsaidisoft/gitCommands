@@ -16,12 +16,21 @@ This repo is to show the git commands and the use of them
 ```
 ***How to merge two branches***
 1.  First: you need to switch to the branch that you want to merge data into it:
+
 ```git checkout branchNmae```
-2.  Second: you need to pull all the data to the branch
+
+2.  Second: you need to pull all the data to the branch:
+
 ```git pull origin branchName```
+
 3.  Third: you need to merge data from specific branch to your the trageted branch:
+
 ```git merge otherbranchName```
+
 4.  Fourth: you need to commit your work and changes to targeted branch:
+
 ```git commit -m 'new update, by merge'```
+
 5. Fifth: you need to push to the targeted branch:
+
 ```git push origin branchName```
