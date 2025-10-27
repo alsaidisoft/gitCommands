@@ -34,3 +34,12 @@ This repo is to show the git commands and the use of them
 5. Fifth: you need to push to the targeted branch:
 
 ```git push origin branchName```
+
+***How to build image in docker***
+1.  First: you nedd to create image in docker:
+
+   ```docker build -t myimage .```
+
+2. Second: you need tom set container and port directly:
+
+   ```docker run -p 8080:8080 -d myimage:latest```
