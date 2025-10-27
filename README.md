@@ -42,4 +42,4 @@ This repo is to show the git commands and the use of them
 
 2. Second: you need tom set container and port directly:
 
-   ```docker run -p 8080:8080 -d myimage:latest```
+```docker run -p 8080:8080 -d myimage:latest```
