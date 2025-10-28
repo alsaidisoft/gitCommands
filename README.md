@@ -43,3 +43,16 @@ This repo is to show the git commands and the use of them
 2. Second: you need tom set container and port directly:
 
 ```docker run -p 8080:8080 -d myimage:latest```
+
+***Initializing react app with vite***
+1.   First: You need to run next command then follow the steps with No:
+```npm create vite@latest```
+
+3.   Second: return th the project:
+```cd project-name```
+
+5.   Third: install the packages:
+```npm install```
+
+7.   Forth: run dev command:
+```npm run dev```
