@@ -46,13 +46,17 @@ This repo is to show the git commands and the use of them
 
 ***Initializing react app with vite***
 1.   First: You need to run next command then follow the steps with No:
+   
 ```npm create vite@latest```
 
 3.   Second: return th the project:
+   
 ```cd project-name```
 
 5.   Third: install the packages:
+   
 ```npm install```
 
 7.   Forth: run dev command:
+   
 ```npm run dev```
