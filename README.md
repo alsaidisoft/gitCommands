@@ -60,3 +60,12 @@ This repo is to show the git commands and the use of them
 7.   Forth: run dev command:
    
 ```npm run dev```
+
+***Aws commands - Terraform commands***
+1.   To login:
+
+```cd .aws``` - ```aws-vault exec said-SaidAlSaidi```
+
+2.   To init - plan - apply:
+
+```terraform init``` - ```terraform plan``` - ```terraform apply```
