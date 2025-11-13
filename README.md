@@ -88,3 +88,5 @@ region=eu-west-2
 2.   To init - plan - apply:
 
 ```terraform init``` - ```terraform plan``` - ```terraform apply```
+
+3. Example of terraform inside aws folder.
