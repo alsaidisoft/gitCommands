@@ -1,4 +1,6 @@
-# gitCommands
+# CLI Commands
+
+***git Commands***
 This repo is to show the git commands and the use of them
 ```
 1.  git add . : it will add whole files you have changed 
