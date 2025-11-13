@@ -62,9 +62,24 @@ This repo is to show the git commands and the use of them
 ```npm run dev```
 
 ***Aws commands - Terraform commands***
+Configrations: 
+- First you will need to install aws, then vault, then you will need to add IAM role, then you will need to add profile in your local machine by CLI: ```aws-vault add profilename-root``` , then you will need to add configrations for macOs: ```nano config```, for windows: ```notepad $env:USERPROFILE\.aws\config```.
+- The configrations example:
+
+[profile alsaidi-root]
+mfa_serial=arn:aws:iam::536186750336:mfa/alsaidisoft
+region=eu-west-2
+credential_process=aws-vault exec alsaidi-root --json
+
+[profile alsaidi-SaidWindows]
+source_profile=alsaidi-root
+include_profile=alsaidi-root
+role_arn=arn:aws:iam::681090449514:role/c0197-dsa
+region = eu-west-2
+
 1.   To login:
 
-```cd .aws``` - ```aws-vault exec said-SaidAlSaidi```
+```cd .aws``` - ```aws-vault exec alsaidi-SaidWindows```, then use windows authenticator to enter the password if he asked you.
 
 2.   To init - plan - apply:
 
