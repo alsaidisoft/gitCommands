@@ -80,7 +80,7 @@ include_profile=alsaidi-root
 role_arn=arn:aws:iam::681090449514:role/c0197-dsa
 region=eu-west-2
 ```
-# Remember: its important to do all commands in one console
+
 
 1.   To login:
 
@@ -91,3 +91,12 @@ region=eu-west-2
 ```terraform init``` - ```terraform plan``` - ```terraform apply```
 
 3. Example of terraform inside aws folder.
+
+# Remember: its important to do all commands in one console
+CMD style of identifying stack_name, aws_region, state_bucket: 
+```
+set GIGS_STACK_NAME=test-2025-said
+echo %GIGS_STACK_NAME%
+set TF_VAR_gigs_stack_name = %GIGS_STACK_NAME%
+echo %TF_VAR_gigs_stack_name
+```
