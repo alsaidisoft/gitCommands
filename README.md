@@ -80,6 +80,7 @@ include_profile=alsaidi-root
 role_arn=arn:aws:iam::681090449514:role/c0197-dsa
 region=eu-west-2
 ```
+# Remember: its important to do all commands in one console
 
 1.   To login:
 
