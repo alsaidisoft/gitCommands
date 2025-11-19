@@ -17,6 +17,7 @@ This repo is to show the git commands and the use of them
 12. git fetch : downloads the latest changes from the remote repository
 ```
 ***How to merge two branches***
+
 ***Note: you don't ned to push the commit, just switch between branches and merge***
 1.  First: you need to switch to the branch that you want to merge data into it:
 
